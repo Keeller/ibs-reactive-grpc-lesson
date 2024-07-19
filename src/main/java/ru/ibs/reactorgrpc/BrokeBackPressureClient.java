@@ -32,6 +32,7 @@ public class BrokeBackPressureClient {
                         }
                 );
 
+        while (!dispose.isDisposed());
 
     }
 }
